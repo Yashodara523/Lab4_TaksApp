@@ -9,6 +9,8 @@ import com.example.todolist.databinding.ActivityCreateCardBinding
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
+//add tasks
+
 class CreateCard : AppCompatActivity() {
     private lateinit var binding: ActivityCreateCardBinding
     private lateinit var database: myDatabase
