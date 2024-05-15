@@ -3,6 +3,8 @@ package com.example.todolist
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
+//entity
+
 @Entity(tableName = "To_Do")
 data class Entity(
     @PrimaryKey(autoGenerate = true)
