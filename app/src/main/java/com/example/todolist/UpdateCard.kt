@@ -8,6 +8,7 @@ import com.example.todolist.databinding.ActivityUpdateCardBinding
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
+//update
 class UpdateCard : AppCompatActivity() {
     private lateinit var binding: ActivityUpdateCardBinding
     private lateinit var database: myDatabase
@@ -60,7 +61,7 @@ class UpdateCard : AppCompatActivity() {
             }
         }
     }
-
+//intent
     private fun myIntent() {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
