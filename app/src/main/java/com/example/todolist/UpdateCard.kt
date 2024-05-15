@@ -57,7 +57,7 @@ class UpdateCard : AppCompatActivity() {
 
                 }
 
-                myIntent()
+                myIntent() // call intent
             }
         }//
     }
